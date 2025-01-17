@@ -15,7 +15,7 @@ const quizData = [
     author: "Rahul",
     genre: "Tech",
     created_at: "07/08/2024 | 1:05 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const quizData = [
     author: "Neha",
     genre: "Science",
     created_at: "10/05/2023 | 3:15 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const quizData = [
     author: "Vikas",
     genre: "Physics",
     created_at: "05/12/2023 | 5:20 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const quizData = [
     author: "Anjali",
     genre: "Geography",
     created_at: "12/07/2024 | 2:30 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const quizData = [
     author: "Karan",
     genre: "Marketing",
     created_at: "22/09/2023 | 11:15 AM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ const quizData = [
     author: "Megha",
     genre: "AI",
     created_at: "14/11/2024 | 4:10 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ const quizData = [
     author: "Rohan",
     genre: "Coding",
     created_at: "20/10/2024 | 1:05 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
   {
     id: 8,
@@ -99,7 +99,7 @@ const quizData = [
     author: "Priya",
     genre: "History",
     created_at: "02/01/2025 | 3:45 PM",
-    thumbnail: "/images/Thumbnail.png",
+    thumbnail: "./images/Thumbnail.png",
   },
 ];
 
