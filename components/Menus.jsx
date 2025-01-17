@@ -21,7 +21,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Library.svg"}
+                src={"./svg/Library.svg"}
                 alt="+Create"
               />
               <span className="font-normal text-sm">My Library</span>
@@ -34,7 +34,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Review.svg"}
+                src={"./svg/Review.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Smart Review</span>
@@ -45,7 +45,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               ></Image>
             </div>
@@ -57,7 +57,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Hosted.svg"}
+                src={"./svg/Hosted.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Hosted Session</span>
@@ -68,7 +68,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               ></Image>
             </div>
@@ -83,7 +83,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Bulb.svg"}
+                src={"./svg/Bulb.svg"}
                 alt="+Create"
               />
               <span className="text-[#FDC822] font-medium text-base">
@@ -101,7 +101,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Groups.svg"}
+                src={"./svg/Groups.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Groups</span>
@@ -112,7 +112,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               ></Image>
             </div>
@@ -124,7 +124,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Market.svg"}
+                src={"./svg/Market.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Market Place</span>
@@ -135,7 +135,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               />
             </div>
@@ -150,7 +150,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Reward.svg"}
+                src={"./svg/Reward.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Rewards</span>
@@ -164,7 +164,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Notification.svg"}
+                src={"./svg/Notification.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Notification</span>
@@ -175,7 +175,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               />
             </div>
@@ -187,7 +187,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Profile.svg"}
+                src={"./svg/Profile.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Profile</span>
@@ -202,7 +202,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Setting.svg"}
+                src={"./svg/Setting.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Setting</span>
@@ -213,7 +213,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Lock.svg"}
+                src={"./svg/Lock.svg"}
                 alt="logo"
               />
             </div>
@@ -225,7 +225,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/HTU.svg"}
+                src={"./svg/HTU.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">How to Use</span>
@@ -239,7 +239,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Support.svg"}
+                src={"./svg/Support.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Support Hub</span>
@@ -252,7 +252,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/Logout.svg"}
+                src={"./svg/Logout.svg"}
                 alt="logo"
               />
               <span className="font-normal text-sm">Logout</span>
@@ -278,7 +278,7 @@ const Menus = () => {
                 priority
                 width={20}
                 height={20}
-                src={"/svg/AI.svg"}
+                src={"./svg/AI.svg"}
                 alt="logo"
               />
               <span className="font-bold bg-gradient-to-r from-[#1A9CEC] to-[#43C8A2] bg-clip-text text-transparent">At your service</span>
