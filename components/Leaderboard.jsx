@@ -68,24 +68,24 @@ const Leaderboard = () => {
                   <div className="relative flex flex-col items-center bg-[#3b3a40]/80 p-4 rounded-lg shadow-md w-40 sm:w-48">
                     <div className="absolute -top-3 left-0">
                       {index === 0 && (
-                        <Image src={"/images/GoldMedal.png"} alt="Gold Medal" height={50} width={50} />
+                        <Image src={"./images/GoldMedal.png"} alt="Gold Medal" height={50} width={50} />
                       )}
                       {index === 1 && (
-                        <Image src={"/images/SilverMedal.png"} alt="Silver Medal" height={50} width={50} />
+                        <Image src={"./images/SilverMedal.png"} alt="Silver Medal" height={50} width={50} />
                       )}
                       {index === 2 && (
-                        <Image src={"/images/BronzeMedal.png"} alt="Bronze Medal" height={50} width={50} />
+                        <Image src={"./images/BronzeMedal.png"} alt="Bronze Medal" height={50} width={50} />
                       )}
                     </div>
                     <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gray-700 mb-2 relative overflow-hidden">
-                      <Image src={"/images/profile-1.png"} alt="Profile" objectFit="cover" fill />
+                      <Image src={"./images/profile-1.png"} alt="Profile" objectFit="cover" fill />
                     </div>
                     <h3 className="text-lg font-semibold">{player.name}</h3>
                     <p className="text-sm text-gray-400">{maskEmail(player.email)}</p>
                     <div className="flex justify-between w-full text-sm mt-2">
                       <span className="font-medium">{player.category}</span>
                       <span className="flex items-center space-x-1 gap-1">
-                        <Image src={"/images/Coins.png"} alt="Coin" width={25} height={25} />
+                        <Image src={"./images/Coins.png"} alt="Coin" width={25} height={25} />
                         <span>{player.score}</span>
                       </span>
                     </div>
@@ -109,24 +109,24 @@ const Leaderboard = () => {
             >
               <div className="absolute -top-3 left-0">
                 {index === 0 && (
-                  <Image src={"/images/GoldMedal.png"} alt="Gold Medal" height={50} width={50} />
+                  <Image src={"./images/GoldMedal.png"} alt="Gold Medal" height={50} width={50} />
                 )}
                 {index === 1 && (
-                  <Image src={"/images/SilverMedal.png"} alt="Silver Medal" height={50} width={50} />
+                  <Image src={"./images/SilverMedal.png"} alt="Silver Medal" height={50} width={50} />
                 )}
                 {index === 2 && (
-                  <Image src={"/images/BronzeMedal.png"} alt="Bronze Medal" height={50} width={50} />
+                  <Image src={"./images/BronzeMedal.png"} alt="Bronze Medal" height={50} width={50} />
                 )}
               </div>
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gray-700 mb-2 relative overflow-hidden">
-                <Image src={"/images/profile-1.png"} alt="Profile" objectFit="cover" fill />
+                <Image src={"./images/profile-1.png"} alt="Profile" objectFit="cover" fill />
               </div>
               <h3 className="text-lg font-semibold">{player.name}</h3>
               <p className="text-sm text-gray-400">{maskEmail(player.email)}</p>
               <div className="flex justify-between w-full text-sm mt-2">
                 <span className="font-medium">{player.category}</span>
                 <span className="flex items-center space-x-1 gap-1">
-                  <Image src={"/images/Coins.png"} alt="Coin" width={25} height={25} />
+                  <Image src={"./images/Coins.png"} alt="Coin" width={25} height={25} />
                   <span>{player.score}</span>
                 </span>
               </div>
@@ -145,7 +145,7 @@ const Leaderboard = () => {
             <div className="flex items-center space-x-4 mb-2 sm:mb-0">
               <div className="text-gray-300 font-medium">#{index + 4}</div>
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-700 relative overflow-hidden">
-                <Image src={"/images/profile-1.png"} alt="Profile" objectFit="cover" fill />
+                <Image src={"./images/profile-1.png"} alt="Profile" objectFit="cover" fill />
               </div>
               <div>
                 <h3 className="font-semibold">{player.name}</h3>
@@ -155,7 +155,7 @@ const Leaderboard = () => {
             <div className="flex items-center space-x-4">
               <span className="font-medium">{player.category}</span>
               <span className="flex items-center space-x-1 gap-1">
-                <Image src={"/images/Coins.png"} alt="Coin" width={25} height={25} />
+                <Image src={"./images/Coins.png"} alt="Coin" width={25} height={25} />
                 <span>{player.score}</span>
               </span>
             </div>
