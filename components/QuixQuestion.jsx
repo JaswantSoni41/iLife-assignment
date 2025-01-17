@@ -47,7 +47,7 @@ const QuizQuestion = () => {
           <CardContent className="p-4 text-center bg-gradient-to-b from-[#5FEACD] to-[#0A7172] text-white rounded-lg font-medium h-40 flex flex-col items-center justify-center">
             <div className="relative w-48 h-24 rounded-md overflow-hidden border-y-2 border-white mb-2 over">
               <Image
-                src="/images/peter-jackson.png"
+                src="./images/peter-jackson.png"
                 alt="Peter Jackson"
                 fill // Specify height
                 objectFit="cover"
@@ -64,7 +64,7 @@ const QuizQuestion = () => {
           <CardContent className="p-4 text-center  bg-gradient-to-b from-[#12AEFB] to-[#4364FD] text-white rounded-lg font-medium h-40 flex flex-col items-center justify-center">
             <div className="relative w-48 h-24 rounded-md overflow-hidden border-y-2 border-white mb-2 over">
               <Image
-                src="/images/victor.png"
+                src="./images/victor.png"
                 alt="Victor Burton"
                 fill // Specify height
                 objectFit="cover"
